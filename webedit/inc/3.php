@@ -1,4 +1,7 @@
-<?php if(!$auth)exit;?><h1>Settings</h1>
+<?php if(!$auth)exit;?>
+<style>#license{position:fixed;right:2em;bottom:1em;font-size:small;color:#888;
+	text-decoration:none;}#license:hover{text-decoration:underline;}</style>
+<h1>Settings</h1>
 
 Dark mode: <input type="checkbox" onchange="if(xhr(3,{a:0,i:this.checked?1:0})!=='1'){alert('Error');this.checked=!this.checked;}"<?=$d?'':' checked'?>><br><br>
 Backup: <button onclick="location='<?=$dir?>xhr/3.php?t=<?=$t?>&a=3';">Download</button><br><br><hr>
@@ -17,5 +20,6 @@ Short-Get-Token: <input type="checkbox" onchange="var re=xhr(3,{a:1,i:this.check
 
 <details><summary>Additional information</summary><div>
 <ul><li>If <code><?=$dir?>site/index.php</code> exists, it will be used as startpage. Otherwise <i>Files</i> remain as startpage.</li>
-<li>Menu sites are included into <code><?=$dir?>inc/5.php</code> via PHP require() function.</li></ul><br><br>
-<a onclick="page(4);">License</a></div></details>
+<li>Menu sites are included into <code><?=$dir?>inc/5.php</code> via PHP require() function.</li></ul></div></details>
+
+<a id="license" onclick="page(4);">License</a>
