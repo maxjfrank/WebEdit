@@ -1,4 +1,6 @@
 # WebEdit
+**Product owner:** Maximilian Frank [script4all.com](https://scriptall.com)
+
 **Everyone is kindly requested not to provide the original, copy, modification or otherwise alteration or duplication of the web application in any way neither as his or her work, achievements or accomplishments nor under his or her name or similiar. Thank you.**
 
 ---
