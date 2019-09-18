@@ -1,10 +1,10 @@
 # WebEdit
-**Product owner:** Maximilian Frank ([script4all.com](https://scriptall.com))
+**Product owner:** Maximilian Frank ([script4all.com](https://script4all.com))
 
 **Everyone is kindly requested not to provide the original, copy, modification or otherwise alteration or duplication of the web application in any way neither as his or her work, achievements or accomplishments nor under his or her name or similiar. Thank you.**
 
 ---
-This repository contains the files of WebEdit (view more on [script4all.com/webedit](https://script4all.com/webedit)).
+This repository contains the files of WebEdit (view more on [script4all.com/shop/webedit](https://script4all.com/shop/webedit)).
 
 I made the whole files on my own and without any team or library.
 
